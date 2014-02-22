@@ -1,0 +1,118 @@
+wamu0[0;39mffmpeg version 2.1.3[0m[0;39m Copyright (c) 2000-2013 the FFmpeg developers[0m[0;39m
+[0m[0;39m  built on Feb 21 2014 15:59:48 with Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+[0m[0;39m  configuration: --prefix=/usr/local/Cellar/ffmpeg/2.1.3 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-nonfree --enable-hardcoded-tables --enable-avresample --enable-vda --cc=clang --host-cflags= --host-ldflags= --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid
+[0m[0;39m  libavutil      52. 48.101 / 52. 48.101
+[0m[0;39m  libavcodec     55. 39.101 / 55. 39.101
+[0m[0;39m  libavformat    55. 19.104 / 55. 19.104
+[0m[0;39m  libavdevice    55.  5.100 / 55.  5.100
+[0m[0;39m  libavfilter     3. 90.100 /  3. 90.100
+[0m[0;39m  libavresample   1.  1.  0 /  1.  1.  0
+[0m[0;39m  libswscale      2.  5.101 /  2.  5.101
+[0m[0;39m  libswresample   0. 17.104 /  0. 17.104
+[0m[0;39m  libpostproc    52.  3.100 / 52.  3.100
+[0m[0;33mGuessed Channel Layout for  Input Stream #0.0 : mono
+[0m[0;39mInput #0, wav, from 'wamu0.wav':
+[0m[0;39m  Metadata:
+[0m[0;39m    encoder         : [0m[0;39mLavf55.19.104[0m[0;39m
+[0m[0;39m  Duration: [0m[0;39m00:00:28.34[0m[0;39m, bitrate: [0m[0;39m705 kb/s[0m[0;39m
+[0m[0;39m    Stream #0:0[0m[0;39m: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s[0m[0;39m
+[0m[0;39mOutput #0, null, to 'pipe:':
+[0m[0;39m  Metadata:
+[0m[0;39m    encoder         : [0m[0;39mLavf55.19.104[0m[0;39m
+[0m[0;39m    Stream #0:0[0m[0;39m: Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s[0m[0;39m
+[0m[0;39mStream mapping:
+[0m[0;39m  Stream #0:0 (pcm_s16le) -> ebur128[0m[0;39m
+[0m[0;39m  ebur128[0m[0;39m -> Stream #0:0 (pcm_s16le)
+[0m[0;39mPress [q] to stop, [?] for help
+[0m[0;39msize=N/A time=00:00:28.34 bitrate=N/A    [0m[0;39m
+[0m[0;39mvideo:0kB audio:2657kB subtitle:0 global headers:0kB muxing overhead -100.000809%
+[0m[1;32m[Parsed_ebur128_0 @ 0x7fddf2d00000] [0m[0;39mSummary:
+
+  Integrated loudness:
+    I:         -19.9 LUFS
+    Threshold: -30.3 LUFS
+
+  Loudness range:
+    LRA:         4.0 LU
+    Threshold: -40.7 LUFS
+    LRA low:   -23.1 LUFS
+    LRA high:  -19.2 LUFS
+[0mwamu1[0;39mffmpeg version 2.1.3[0m[0;39m Copyright (c) 2000-2013 the FFmpeg developers[0m[0;39m
+[0m[0;39m  built on Feb 21 2014 15:59:48 with Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+[0m[0;39m  configuration: --prefix=/usr/local/Cellar/ffmpeg/2.1.3 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-nonfree --enable-hardcoded-tables --enable-avresample --enable-vda --cc=clang --host-cflags= --host-ldflags= --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid
+[0m[0;39m  libavutil      52. 48.101 / 52. 48.101
+[0m[0;39m  libavcodec     55. 39.101 / 55. 39.101
+[0m[0;39m  libavformat    55. 19.104 / 55. 19.104
+[0m[0;39m  libavdevice    55.  5.100 / 55.  5.100
+[0m[0;39m  libavfilter     3. 90.100 /  3. 90.100
+[0m[0;39m  libavresample   1.  1.  0 /  1.  1.  0
+[0m[0;39m  libswscale      2.  5.101 /  2.  5.101
+[0m[0;39m  libswresample   0. 17.104 /  0. 17.104
+[0m[0;39m  libpostproc    52.  3.100 / 52.  3.100
+[0m[0;33mGuessed Channel Layout for  Input Stream #0.0 : mono
+[0m[0;39mInput #0, wav, from 'wamu1.wav':
+[0m[0;39m  Metadata:
+[0m[0;39m    encoder         : [0m[0;39mLavf55.19.104[0m[0;39m
+[0m[0;39m  Duration: [0m[0;39m00:00:29.88[0m[0;39m, bitrate: [0m[0;39m705 kb/s[0m[0;39m
+[0m[0;39m    Stream #0:0[0m[0;39m: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s[0m[0;39m
+[0m[0;39mOutput #0, null, to 'pipe:':
+[0m[0;39m  Metadata:
+[0m[0;39m    encoder         : [0m[0;39mLavf55.19.104[0m[0;39m
+[0m[0;39m    Stream #0:0[0m[0;39m: Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s[0m[0;39m
+[0m[0;39mStream mapping:
+[0m[0;39m  Stream #0:0 (pcm_s16le) -> ebur128[0m[0;39m
+[0m[0;39m  ebur128[0m[0;39m -> Stream #0:0 (pcm_s16le)
+[0m[0;39mPress [q] to stop, [?] for help
+[0m[0;39msize=N/A time=00:00:29.88 bitrate=N/A    [0m[0;39m
+[0m[0;39mvideo:0kB audio:2802kB subtitle:0 global headers:0kB muxing overhead -100.000767%
+[0m[1;32m[Parsed_ebur128_0 @ 0x7fe2f0500000] [0m[0;39mSummary:
+
+  Integrated loudness:
+    I:         -19.8 LUFS
+    Threshold: -30.4 LUFS
+
+  Loudness range:
+    LRA:         3.4 LU
+    Threshold: -40.5 LUFS
+    LRA low:   -22.2 LUFS
+    LRA high:  -18.8 LUFS
+[0mwamu2[0;39mffmpeg version 2.1.3[0m[0;39m Copyright (c) 2000-2013 the FFmpeg developers[0m[0;39m
+[0m[0;39m  built on Feb 21 2014 15:59:48 with Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+[0m[0;39m  configuration: --prefix=/usr/local/Cellar/ffmpeg/2.1.3 --enable-shared --enable-pthreads --enable-gpl --enable-version3 --enable-nonfree --enable-hardcoded-tables --enable-avresample --enable-vda --cc=clang --host-cflags= --host-ldflags= --enable-libx264 --enable-libfaac --enable-libmp3lame --enable-libxvid
+[0m[0;39m  libavutil      52. 48.101 / 52. 48.101
+[0m[0;39m  libavcodec     55. 39.101 / 55. 39.101
+[0m[0;39m  libavformat    55. 19.104 / 55. 19.104
+[0m[0;39m  libavdevice    55.  5.100 / 55.  5.100
+[0m[0;39m  libavfilter     3. 90.100 /  3. 90.100
+[0m[0;39m  libavresample   1.  1.  0 /  1.  1.  0
+[0m[0;39m  libswscale      2.  5.101 /  2.  5.101
+[0m[0;39m  libswresample   0. 17.104 /  0. 17.104
+[0m[0;39m  libpostproc    52.  3.100 / 52.  3.100
+[0m[0;33mGuessed Channel Layout for  Input Stream #0.0 : mono
+[0m[0;39mInput #0, wav, from 'wamu2.wav':
+[0m[0;39m  Metadata:
+[0m[0;39m    encoder         : [0m[0;39mLavf55.19.104[0m[0;39m
+[0m[0;39m  Duration: [0m[0;39m00:00:28.19[0m[0;39m, bitrate: [0m[0;39m705 kb/s[0m[0;39m
+[0m[0;39m    Stream #0:0[0m[0;39m: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, mono, s16, 705 kb/s[0m[0;39m
+[0m[0;39mOutput #0, null, to 'pipe:':
+[0m[0;39m  Metadata:
+[0m[0;39m    encoder         : [0m[0;39mLavf55.19.104[0m[0;39m
+[0m[0;39m    Stream #0:0[0m[0;39m: Audio: pcm_s16le, 48000 Hz, mono, s16, 768 kb/s[0m[0;39m
+[0m[0;39mStream mapping:
+[0m[0;39m  Stream #0:0 (pcm_s16le) -> ebur128[0m[0;39m
+[0m[0;39m  ebur128[0m[0;39m -> Stream #0:0 (pcm_s16le)
+[0m[0;39mPress [q] to stop, [?] for help
+[0m[0;39msize=N/A time=00:00:28.18 bitrate=N/A    [0m[0;39m
+[0m[0;39mvideo:0kB audio:2642kB subtitle:0 global headers:0kB muxing overhead -100.000813%
+[0m[1;32m[Parsed_ebur128_0 @ 0x7fe58b500000] [0m[0;39mSummary:
+
+  Integrated loudness:
+    I:         -19.5 LUFS
+    Threshold: -29.6 LUFS
+
+  Loudness range:
+    LRA:         4.6 LU
+    Threshold: -39.4 LUFS
+    LRA low:   -22.4 LUFS
+    LRA high:  -17.8 LUFS
+[0m
