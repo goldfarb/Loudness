@@ -44,4 +44,5 @@ def clean_doc(swap_array):
 				os.system('rm ' + i_file)
 	os.system('cp ' + o_file + ' output.csv')
 					
-						
+num_line_count('script.txt')
+clean_doc(replacements_array)					
