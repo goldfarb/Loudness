@@ -1,30 +1,42 @@
 import linecache, os
 from subprocess import call
-#input, replacement
-replacements_arrary = [['configuration: --enable-gpl --enable-version3 --disable-w32threads --enable-avisynth --enable-bzlib --enable-fontconfig --enable-frei0r --enable-gnutls --enable-iconv --enable-libass --enable-libbluray --enable-libcaca --enable-libfreetype --enable-libgsm --enable-libilbc --enable-libmodplug --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-librtmp --enable-libschroedinger --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxvid --enable-zlib', 'BOO'], ['  libavutil      52. 65.100 / 52. 65.100', 'HISS'], \
-['  libavcodec     55. 52.102 / 55. 52.102\n  libavformat    55. 33.100 / 55. 33.100', 'OTHER']]
+from ffmpeg_out_rep_array import replacements_arrary
 
-os.system('cp sort.txt inter_0.txt')
-with open ('sort.txt', 'r') as f:
-	num_lines = 0
-	for each_line in f:
-		num_lines = num_lines + 1
-print num_lines
 
-for i in range (0,num_lines):
+num_lines = 0
+docs_name = 'sort.txt'
+
+def num_lines_doc(num_line, doc_name):
+	global num_lines
+	num_lines = num_line
+	global docs_name
+	docs_name = doc_name
+	os.system('cp ' + docs_name + ' inter_0.txt')
+	with open (docs_name, 'r') as f:
+		for each_line in f:
+			num_lines = num_lines + 1
+	print "lines to be replaced : " + str(num_lines)
+
+def clean_doc(num_lines, use_array):
+	for i in range (0,num_lines):
 		print i
 		in_file = 'inter_%s.txt' % str(i)
 		out_file = 'inter_%s.txt' % str(i + 1)
-	
+		j = 0
+
 		with open(out_file, 'w') as fout:
 			with open(in_file, 'r') as fin:
 				for line in fin:
-					fout.write(line.replace(replacements_arrary[i][1], replacements_arrary[i][0]))
+					fout.write(line.replace(use_array[j][0], use_array[j][1]))
+					j = j + 1
 			fin.close()
 		fout.close()
 		call(['rm', in_file])
 
+num_lines_doc(num_lines, 'sort.txt')
 
+print "number of lines is " + str(num_lines)
+clean_doc(num_lines, replacements_arrary)
 
 # [out, in]
 """replacements_arrary = [['\t', '\n'], ['\t', '\r'], ['\r//ad.npr.org/', '//ad.npr.org/'], ['\t', '\t\t'], ['\t', '\t\t\t'], \
