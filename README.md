@@ -12,8 +12,8 @@ all were tested against test audio from qualis and some example files were check
 --
 
 What we hope to include:
-*segment vs. full hour vs. full show
-*feed a vs. feed b
-*all the shows on one day
-*all the days for one show
-*snapshot of an individual engineer, producer, in-house
+* segment vs. full hour vs. full show
+* feed a vs. feed b
+* all the shows on one day
+* all the days for one show
+* snapshot of an individual engineer, producer, in-house
