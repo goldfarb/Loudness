@@ -17,3 +17,14 @@ What we hope to include:
 * all the shows on one day
 * all the days for one show
 * snapshot of an individual engineer, producer, in-house
+
+
+---
+
+
+for concatenating
+
+
+for splitting hours into segments to match the clock
+
+ffmpeg -i input.wav -acodec copy -t 00:00:30 -ss 00:02:20 output.wav
