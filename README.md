@@ -21,6 +21,18 @@ What we hope to include:
 
 ---
 
+compile all of the meter information [rollovers, from content depot, LWoSF, from APM, others?]
+  
+  keep track of the source (rollover, content depot)
+  
+  remove rows for expunged files
+  
+  add row for monophonic 256
+  
+  write cleanup for the cart chunks
+
+---
+
 
 for concatenating
 
