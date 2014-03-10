@@ -36,6 +36,7 @@ compile all of the meter information [rollovers, from content depot, LWoSF, from
 
 for concatenating
 
+-
 
 for splitting hours into segments to match the clock
 
@@ -50,3 +51,7 @@ for in house - shows, with loudness
 over the course of a day
 
 programs; promos; newscast;
+
+put CD metadata with the shows
+
+list of what we're missing still
