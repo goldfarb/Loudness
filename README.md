@@ -40,3 +40,13 @@ for concatenating
 for splitting hours into segments to match the clock
 
 ffmpeg -i input.wav -acodec copy -t 00:00:30 -ss 00:02:20 output.wav
+
+
+--------
+
+for in house - shows, with loudness
+  same shows, with LRA error bars
+  
+over the course of a day
+
+programs; promos; newscast;
