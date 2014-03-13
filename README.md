@@ -54,3 +54,8 @@ programs; promos; newscast;
 put CD metadata with the shows
 
 list of what we're missing still
+
+--
+
+3 samples is too much peak distortion, per DJG
+
