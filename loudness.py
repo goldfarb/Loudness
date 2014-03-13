@@ -1,34 +1,17 @@
+import subprocess
 
-import pexpect
-from replace_text import num_line_count, clean_doc
-from ffmpeg_out_rep_array import replacements_array
-
-num_line_count('sort.txt')
-print 'all the lines  -- ' + str(line_count)
-
-clean_doc(replacements_array)
-
-
-
-with open('files_to_run.txt') as f:
+with open ('files_to_run_bbc.txt') as f:
 	reader = f.read().splitlines()
 	d = list(reader)
 
-def eval(i):
-	iteration = '//ad.npr.org/News/DC-Production/Media/Recordings/Rollovers/' + str(i)
-	fout.write ('\r' + iteration + '\r')
-	p = pexpect.spawn('sh')
-	p = pexpect.spawn('ffmpeg -nostats -i %s -filter_complex ebur128=framelog=verbose:peak=true -f null -' % iteration) 
-	p.logfile = fout
-	p.interact(chr(29))
-	fout.close()
-
+def loudness_reading(i):
+#	iteration = "//192.168.28.9/xdcache/archive/" + str(i)
+#	iteration = "//dc-corpfs02/aeshare$/DigitalRadioShare/PROJECTS/Technology\ Strategy/Loudness/Example\ Audio/More\ Shows/" + str(i)
+	iteration = "//ad.npr.org/News/DC-Production/Media/Recordings/Ops/" + str(i)
+	command = 'ffmpeg -nostats -i ' + iteration + ' -filter_complex ebur128=peak=true -f null -'
+	log = open('log_file_bbc.txt', 'a')
+	c = subprocess.call([command], stdout=log, stderr=log, shell=True)
+	log.close()
 
 for a in d:
-	script_filename = 'script.txt'
-	fout = open(script_filename, 'a')
-	print a
-	eval(a)
-
-num_line_count('script.txt')
-clean_doc(replacements_array)
+	loudness_reading(a)

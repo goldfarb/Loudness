@@ -1,7 +1,7 @@
 import os 
 	#used to write to the command line
 
-from ffmpeg_out_rep_array import replacements_array
+from ffmpeg_out_rep_array import replacements_array, tabs_array
 
 line_count = 0
 
@@ -42,7 +42,7 @@ def clean_doc(swap_array):
 				f_out.closed
 				f_in.closed
 				os.system('rm ' + i_file)
-	os.system('cp ' + o_file + ' output.csv')
+	os.system('cp ' + o_file + ' output_rollover.csv')
 					
-num_line_count('script.txt')
+num_line_count('in.txt')
 clean_doc(replacements_array)					

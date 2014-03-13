@@ -1,0 +1,20 @@
+,48000,,,44100,,
+True Peak,Integrated loudness,LRA: 0.0 LU,True peak:,Integrated loudness,LRA: 0.0 LU,True peak:
+-2 dBFS,I: 2.7 LUFS,Th: 22.7 LUFS,Peak: 2.0 dBFS,I: 2.7 LUFS,Th: 22.7 LUFS,Peak: 2.1 dBFS
+,Th: 12.7 LUFS,LRA low: 2.7 LUFS,,Th: 12.7 LUFS,LRA low: 2.7 LUFS,
+,,LRA high: 2.7 LUFS,,,LRA high: 2.7 LUFS,
+LRA 15 LU,Integrated loudness:,Loudness range:,True peak:,Integrated loudness:,Loudness range:,True peak:
+,I: -19.7 LUFS,LRA: 15.0 LU,Peak: -14.9 dBFS,I: -19.7 LUFS,LRA: 15.0 LU,Peak: -14.9 dBFS
+,Th: -34.1 LUFS,Th: -44.0 LUFS,,Th: -34.1 LUFS,Th: -44.0 LUFS,
+,,LRA low: -35.0 LUFS,,,LRA low: -35.0 LUFS,
+,,LRA high: -20.0 LUFS,,,LRA high: -20.0 LUFS,
+LRA 5 LU,Integrated loudness:,Loudness range:,True peak:,Integrated loudness:,Loudness range:,True peak:
+,I: -21.5 LUFS,LRA: 5.0 LU,Peak: -14.5 dBFS,I: -21.5 LUFS,LRA: 5.0 LU,Peak: -14.6 dBFS
+,Th: -33.2 LUFS,Th: -43.1 LUFS,,Th: -33.2 LUFS,Th: -43.1 LUFS,
+,,LRA low: -25.0 LUFS,,,LRA low: -25.0 LUFS,
+,,LRA high: -20.0 LUFS,,,LRA high: -20.0 LUFS,
+IL -22.0 to -22.5 LKFS,Integrated loudness:,Loudness range:,  True peak:,Integrated loudness:,Loudness range:,True peak:
+,I: -22.5 LUFS,LRA: 0.0 LU,Peak: -19.1 dBFS,I: -22.5 LUFS,LRA: 0.0 LU,Peak: -19.2 dBFS
+,Th: -34.6 LUFS,Th: -44.6 LUFS,,Th: -34.6 LUFS,Th: -44.6 LUFS,
+,,LRA low: -24.6 LUFS,,,LRA low: -24.6 LUFS,
+,,LRA high: -24.6 LUFS,,,LRA high: -24.6 LUFS,
