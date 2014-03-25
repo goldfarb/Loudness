@@ -40,8 +40,10 @@ for concatenating
 
 for splitting hours into segments to match the clock
 
-incorrect : [ffmpeg -ss hh:mm:ss {start time} -i input.wav -t hh:mm:ss output.wav]
-ffmpeg -i input.wav -acodec copy -t 00:00:30 -ss 00:02:20 output.wav
+two versions to try:
+
+-[ffmpeg -i input.wav -ss start:time -t duration:time output.wav
+-[ffmpeg -ss hh:mm:ss {start time} -i input.wav -t hh:mm:ss output.wav]
 
 
 --------
