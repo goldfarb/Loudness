@@ -43,6 +43,10 @@ for splitting hours into segments to match the clock
 two versions to try:
 
 -[ffmpeg -i input.wav -ss start:time -t duration:time output.wav
+
+or
+
+
 -[ffmpeg -ss hh:mm:ss {start time} -i input.wav -t hh:mm:ss output.wav]
 
 
@@ -63,3 +67,5 @@ list of what we're missing still
 
 3 samples is too much peak distortion, per DJG
 
+
+FIGURE OUT - how to access the rollover files
