@@ -1,0 +1,16 @@
+WATC_billboard,0:00:00,0:01:00,1
+WATC_newscastI,0:01:00,0:04:00,2
+WATC_newscastII,0:04:00,0:05:46,3
+WATC_newscastFundingCredit1,0:05:46,0:06:00,4
+WATC_musicBed1,0:06:00,0:06:30,5
+WATC_segmentA,0:06:30,0:18:00,6
+WATC_musicBed2,0:18:00,0:19:00,7
+WATC_headlines1,0:19:00,0:20:00,8
+WATC_segmentB,0:20:00,0:37:20,9
+WATC_fundingCredit1,0:37:20,0:38:00,10
+WATC_promoMusic,0:38:00,0:39:00,11
+WATC_headlines2,0:39:00,0:40:00,12
+WATC_segmentC,0:40:00,0:57:50,13
+WATC_fundingCredit2,0:57:50,0:58:30,14
+WATC_musicBed3,0:58:30,0:59:00,15
+WATC_musicSilence,0:59:00,1:00:00,16
