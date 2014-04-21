@@ -1,0 +1,7 @@
+FA_billboard,0:00:00,0:01:00,1
+FA_newscastI,0:01:00,0:04:00,2
+FA_newscastII,0:04:00,0:05:46,3
+FA_newscastFundingCredit,0:05:46,0:06:00,4
+FA_interviewSegments,0:06:00,0:58:30,5
+FA_nextDayPromo,0:58:30,0:59:00,6
+FA_Silence,0:59:00,1:00:00,7
