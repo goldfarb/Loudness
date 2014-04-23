@@ -1,1 +1,2 @@
 ffmpeg -nostats -i test.wav -filter_complex ebur128=framelog=verbose -f null -
+ffmpeg -i input.wav -acodec copy -to 0:00:02 -ss 00:00:00 output.wav
