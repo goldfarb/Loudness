@@ -21,32 +21,33 @@ stderr = log
 for i in week:
 	print i
 
-''''	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_17-00-00.wav MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_17-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_17-00-00.wav MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_17-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 
-	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_16-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_16-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_16-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_16-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 
-	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_06-00-00.wav MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_06-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_06-00-00.wav MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_06-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 
-	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_05-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_05-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_05-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_05-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 	
 
 for i in weekend:
 	print i
-	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_09-00-00.wav MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_09-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_09-00-00.wav MultiCoder_SOAP_1_DCTECH-MC01X_'+i+'-2015_09-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 	
-	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_08-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_08-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_08-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_08-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 
-	command = 'cp ../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_17-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_17-00-00.wav'
+	command = 'cp ../../../../../../../cygdrive/r/MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_17-00-00.wav MultiCoder_SOAP_4_DCTECH-MC01X_'+i+'-2015_17-00-00.wav'
 	c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 
+command = 'chmod 777 *.wav'
+c = subprocess.call(command, stdout=log, stderr=log, shell=True)
 
-'''
 for i in week:
 	print i
 
